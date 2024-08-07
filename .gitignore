@@ -16,6 +16,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+tests/
 lib64/
 parts/
 sdist/
@@ -28,6 +29,8 @@ share/python-wheels/
 poetry.lock
 pyproject.toml
 db.sqlite3
+tests.py
+.flake8
 MANIFEST
 
 # PyInstaller
