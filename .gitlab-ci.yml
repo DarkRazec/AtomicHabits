@@ -1,9 +1,0 @@
-deploy:
-  stage: deploy
-  script:
-    - cp $ENV_DEV .env
-    - bash deploy.sh
-  only:
-    - main
-  tags:
-    - dev
